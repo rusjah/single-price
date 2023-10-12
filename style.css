@@ -90,3 +90,41 @@ body {
 .whyUs p {
     color: rgb(166,218,223);
 }
+
+
+@media screen and (min-width: 992px) {
+    
+    .container {
+        grid-template-rows: 1fr  1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .joinUs, .monthSubs, .whyUs {
+        gap: 3vh;
+        padding: 5vh 8vw;
+    }
+
+    .joinUs {
+        grid-column: 1 / span 2;
+    }
+
+    .joinUs h2 {
+        font-size: 2.3em;
+    }
+
+    .joinUs h3, .monthSubs h3, .whyUs h3 {
+       font-size: 1.7em;
+    }
+
+    .joinUs p, .monthSubs p, .whyUs p {
+        font-size: 1.5em;
+    }
+
+    .dollar {
+        font-size: 2.5em;
+    }
+
+    .monthSubs button {
+        font-size: 1.3em;
+    }
+}
