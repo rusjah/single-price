@@ -23,13 +23,13 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
-.joinUs, .monthSubs {
+.joinUs, .monthSubs, .whyUs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 3vh;
-    padding:4vh 8vw;
+    padding:5vh 8vw;
 }
 
 .joinUs h2 {
@@ -76,4 +76,17 @@ body {
     color: rgb(242,253,203);
     font-weight: bolder;
     font-size: 1em;
+}
+
+.whyUs {
+    background-color: rgb(74,190,189);
+    color: var(--light-gray);
+}
+
+.whyUs h3 {
+    color: var(--light-gray);
+}
+
+.whyUs p {
+    color: rgb(166,218,223);
 }
